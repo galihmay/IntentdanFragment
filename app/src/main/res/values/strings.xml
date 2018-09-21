@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Intent dan Fragment</string>
+    <string name="fragment">Go to fragment</string>
+    <string name="activity">Go to activity</string>
+    <string name="second_activity">Selamat datang di Second Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_fragment">Anda memasuki First Fragment</string>
+    <string name="lanjut">Klik untuk lanjut</string>
+    <string name="second_fragment">Selamat anda telah masuk Second Fragment</string>
+</resources>
