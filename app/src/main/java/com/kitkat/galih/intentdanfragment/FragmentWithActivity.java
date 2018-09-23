@@ -25,7 +25,7 @@ public class FragmentWithActivity extends AppCompatActivity {
         FirstFragment FirstFragment = new FirstFragment();
 
         transaction.add(R.id.frame_content, FirstFragment);
-        transaction.addToBackStack("FirstFragment");
+
 
         transaction.commit();
 
@@ -33,14 +33,6 @@ public class FragmentWithActivity extends AppCompatActivity {
 
     }
 
-    //kembali ke main activity
-    @Override
-    public void onBackPressed() {
-        if (getFragmentManager().getBackStackEntryCount() == 0) {
-            this.finish();
-        } else {
-            getFragmentManager().popBackStack();
-        }
-    }
+
 
 }
